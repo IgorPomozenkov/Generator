@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор формулы</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <header></header>
+
+  <main>
+    <div class="container">
+      <form id="gen-form-js" action="#" class="genForm">
+        <p class="name">Введите название столбца:</p>
+
+        <input id="name-column-js" type="text" name="column" placeholder="a, b, c, aa ..." />
+        <button type="submit" class="mainBtn">OK</button>
+      </form>
+
+      <div class="formula">
+        <span>Формула:</span>
+        <p id="formula-js" class="text"></p>
+        <button id="btn-copy-js" type="button" class="hidden mainBtn">Copy</button>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

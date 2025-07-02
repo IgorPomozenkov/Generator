@@ -1,0 +1,84 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select,
+span,
+label,
+li,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: inherit;
+}
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+} */
+
+a {
+  transition: all .2s;
+}
+
+body {
+  font-family: sans-serif;
+  background: aliceblue;
+  /* scrollbar-width: auto;
+  scrollbar-color: auto; */
+}
+
+main {
+  max-width: 1320px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.mainBtn {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 19px;
+}
+
+.genForm .name {
+  margin-bottom: 10px;
+}
+
+.genForm input, .genForm button {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.formula span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.formula .text {
+  max-width: 700px;
+  word-break: break-all;
+}
+
+.formula button {
+  margin-top: 10px;
+}
